@@ -6,4 +6,8 @@ class StaticPagesController < ApplicationController
   def help; end
 
   def about; end
+
+  def contract
+    # => app/views/static_pages/contract.html.erb
+  end
 end
