@@ -33,3 +33,18 @@ $ rails test
 
 詳しくは、[*Ruby on Rails チュートリアル*](https://railstutorial.jp/)
 を参考にしてください。
+
+## DBのtips
+```shell
+cd db
+# ログイン
+sqlite3 development.sqlite3
+```
+
+## sqliteのコマンドtips
+```SQL
+-- tableを確認
+.tables
+-- schemaを確認
+.scema users<テーブル名>
+```
