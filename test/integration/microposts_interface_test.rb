@@ -50,3 +50,4 @@ class MicropostsInterfaceTest < MicropostsInterface
     assert_select 'a', { text: 'delete', count: 0 }
   end
 end
+
